@@ -1,0 +1,12 @@
+.my_quote_container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.my_quote{
+    width: 40%;
+    height: 250px;
+    background-color: #000;
+}

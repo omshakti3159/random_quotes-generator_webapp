@@ -19,8 +19,8 @@ const Navbar = () => {
         setname(response.profileObj.name)
         setimg(response.profileObj.imageUrl)
     }
-    const responseGoogleFailure=()=>{
-        console.log("google error")
+    const responseGoogleFailure=(response)=>{
+        console.log(response)
     }
     return (
         <div style={navStyle}>
